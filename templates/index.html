@@ -21,7 +21,7 @@
 </head>
 <body>
     <a class="btn btn-secondary" id="myButton2">
-        Нажми чтобы сменить цвет
+        Нажми чтобы узнать какая ты
     </a>
 
 
@@ -37,6 +37,7 @@ document.getElementById('myButton2').onclick = function() {
         document.getElementById('myButton2').className = 'btn btn-secondary';
     } else {
         document.getElementById('myButton2').className = 'btn btn-primary';
+        document.getElementById('myButton2').textContent = 'самая лучшая';
     }
 };
 </script>
